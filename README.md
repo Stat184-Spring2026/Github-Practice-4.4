@@ -1,28 +1,30 @@
-# Project Title
+# Homework 4.4
 
-Write a 1-2 sentences that quickly and clearly convey what your repo is for.
+This repository contains my work for Homework 4.4. It includes a Quarto-based data visualization project with the source file, rendered PDF, and supporting project documentation.
 
 ## Overview
 
-Expand on those introductory sentences with a brief but informative description of your project's purpose and goals. This section should help visitors decide whether they should dig deeper into your repo/project.
+The purpose of this project is to present clear and reproducible data analysis using Quarto and R. The report includes an analysis of the busiest airports, a Monte Carlo numerical integration section, and a comparison of generic versus planned prompting when using GenAI tools. The main goal of the project is to combine code, narrative writing, and visualizations into a single, organized report that meets the assignment requirements.
 
-### Interesting Insight (Optional)
+### Interesting Insight
 
-This is optional but highly recommended. You'll include one interesting insight from your project as part of the README. This insight is most effective when you include a visual. Keep in mind that this visual must be included as an image file (e.g., JPG, PNG, etc.). You can export plots created with `{ggplot2}` by using the function `ggsave`.
+One interesting insight from this project is that the Monte Carlo estimate becomes more stable as the sample size increases. When the simulation uses only a small number of random points, the estimate varies more. Still, with larger sample sizes, the estimate becomes more reliable and closer to the expected value. This makes the simulation section a good example of how more data can improve numerical accuracy.
 
 ## Data Sources and Acknowledgements
 
-Be sure to list where you got any data used within the project. Be sure to acknowledge any one whose work or elements you're drawing upon.
+This project uses data from Wikipedia for the busiest airport passenger traffic section and a calcium dataset for the GenAI planning and prompting section. I also used OpenAI ChatGPT for the planning and prompting portion of the assignment and QuillBot for grammar and spelling review.
 
 ## Current Plan
 
-Provide some information about what you intend to doe with the project. You can additionally refer the visitor to your detailed plan document.
+My current plan is to keep the repository organized and complete all required files for the assignment. This includes maintaining the QMD source file, the rendered PDF, and the planning documents while making sure the repository follows the required GitHub workflow. More details are included in the separate `PLAN.md` file.
 
 ## Repo Structure
 
-Use this section to explain the structure of your repo. This should help visitors quickly figure out where they should look to find certain elements. Further, you can use this space to highlight and briefly explain important/key files in the repo.
-
+- `README.md` - overview of the project and repository
+- `PLAN.md` - project plan and repository workflow plan
+- `HW4.3.qmd` - Quarto source file for the assignment
+- `HW4.3.pdf` - rendered PDF output of the report
 
 ## Authors
 
-Give information about who are the authors of the project and how people can get in touch if they have questions.
+Aryan Deshmukh
